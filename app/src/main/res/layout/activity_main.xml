@@ -24,8 +24,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp" />
 
-
-
             <android.support.design.widget.TabLayout
                 android:id="@+id/tabLayout"
                 android:layout_width="match_parent"
@@ -52,13 +50,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="message" />
+                android:hint="消息" />
 
             <Button
                 android:id="@+id/sendMsg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="send" />
+                android:text="发送" />
 
         </LinearLayout>
 

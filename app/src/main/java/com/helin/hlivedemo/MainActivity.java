@@ -105,8 +105,7 @@ public class MainActivity extends AppCompatActivity {
         //rtmp://203.207.99.19:1935/live/CCTV5
         //http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
         //http://ivi.bupt.edu.cn/hls/cctv1.m3u8
-        mVideoPlayerStandard.setUp("http://125.88.92.166:30001/PLTV/88888956/224/3221227695/1.m3u8"
-                , JCVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "房间名称");
+        mVideoPlayerStandard.setUp("http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4",JCVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "会飞的雨");
     }
 
     private void sendMessage(String msgContent) {

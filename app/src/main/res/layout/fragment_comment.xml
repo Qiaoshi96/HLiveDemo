@@ -6,7 +6,8 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:text="评论"
+        android:text="评论界面"
+        android:background="#c9aaae"
         android:textSize="18sp"
         android:padding="5dp"
         android:gravity="center"

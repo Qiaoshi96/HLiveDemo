@@ -7,6 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:text="赞赏"
+        android:background="#f4041e"
         android:padding="5dp"
         android:textSize="18sp"
         android:gravity="center"

@@ -10,6 +10,7 @@ import android.view.Window;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.helin.hlivedemo.R;
 
@@ -76,8 +77,13 @@ public class HVideoPlayer extends JCVideoPlayerStandard {
             @Override
             public void onClick(View v) {
                 String content = mEditText.getText().toString();
-                mSendListener.sendMsg(content);
-                mEditText.setText("");
+                if (content!=null){
+                    mSendListener.sendMsg(content);
+                    mEditText.setText("");
+                }else {
+                    Toast.makeText(context,"评论不能为空",Toast.LENGTH_LONG).show();
+                }
+
             }
         });
 
@@ -302,7 +308,7 @@ public class HVideoPlayer extends JCVideoPlayerStandard {
 
     @Override
     public void onVideoSizeChanged() {
-//        super.onVideoSizeChanged();
+        super.onVideoSizeChanged();
 
     }
 
